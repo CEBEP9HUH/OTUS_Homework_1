@@ -18,6 +18,7 @@ set_target_properties(helloworld_cli helloworld test_version PROPERTIES
 )
 
 configure_file(version.h.in version.h)
+configure_file(description.json.in description.json)
 
 target_include_directories(helloworld
     PRIVATE "${CMAKE_BINARY_DIR}"
