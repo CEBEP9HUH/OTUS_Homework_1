@@ -9,6 +9,6 @@ script:
 deploy:
   provider: bintray
   file: description.json
-  user: ceber9huh
+  user: $BINTRAY_USER
   key: $BINTRAY_API_KEY
   skip_cleanup: true
