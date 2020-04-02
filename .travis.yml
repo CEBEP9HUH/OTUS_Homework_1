@@ -8,7 +8,7 @@ script:
 - cmake --build . --target package
 deploy:
   provider: bintray
-  file: helloworld-0.0.$ENV{TRAVIS_BUILD_NUMBER}-Linux.deb
+  file: helloworld-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb
   user: ceber9huh
   key: $BINTRAY_API_KEY
   skip_cleanup: true
