@@ -1,0 +1,18 @@
+{
+    "package":  {
+        "name":             "HelloWorld",
+        "repo":             "OTUS_homework",
+        "subject":          "cebep9huh",
+        "vcs_url":          "https://github.com/CEBEP9HUH/OTUS_Homework_1",
+        "licenses":         "AFL-2.1"
+    },
+
+    "version":  {
+        "name":             "0.0.$TRAVIS_BUILD_NUMBER"
+    },
+
+    "files":    {
+        "includePattern":   "./helloworld-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb",
+        "uploadPattern":    "helloworld-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb"
+    }
+}
