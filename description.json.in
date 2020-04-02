@@ -13,6 +13,6 @@
 
     "files":    [{
         "includePattern":   "/home/travis/build/CEBEP9HUH/OTUS_Homework_1/helloworld-0.0.@PROJECT_VERSION_PATCH@-Linux.deb",
-        "uploadPattern":    "$1"
+        "uploadPattern":    "helloworld-0.0.@PROJECT_VERSION_PATCH@-Linux.deb"
     }]
 }
