@@ -8,12 +8,11 @@
     },
 
     "version":  {
-        "name":             "0.0.$TRAVIS_BUILD_NUMBER"
+        "name":             "0.0.20"
     },
 
     "files":    {
-        "includePattern":   "./helloworld-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb",
-        "uploadPattern":    "helloworld-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb"
-    },
-    "publish": true
+        "includePattern":   "./helloworld-0.0.20-Linux.deb",
+        "uploadPattern":    "helloworld-0.0.20-Linux.deb"
+    }
 }
