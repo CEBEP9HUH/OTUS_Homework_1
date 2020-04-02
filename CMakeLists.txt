@@ -35,7 +35,7 @@ if(MSVC)
     )
 else()
     target_compile_options(helloworld_cli PRIVATE
-        -Wall -Waxtra -pedantic -Werror
+        -Wall -Wextra -pedantic -Werror
     )
     target_compile_options(helloworld PRIVATE
         -Wall -Wextra -pedantic -Werror
