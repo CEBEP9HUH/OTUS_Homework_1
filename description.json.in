@@ -12,7 +12,7 @@
     },
 
     "files":    [{
-        "includePattern":   "build/CEBEP9HUH/OTUS_Homework_1/",
+        "includePattern":   "home/travis/build/CEBEP9HUH/OTUS_Homework_1/",
         "uploadPattern":    "helloworld-0.0.@PROJECT_VERSION_PATCH@-Linux.deb"
     }]
 }
