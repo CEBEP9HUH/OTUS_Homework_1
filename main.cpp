@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-int main(int argc, char** argv)
+int main()
 {
     std::cout << "Version: " << version() << std:: endl;
     return 0;
