@@ -13,6 +13,12 @@
 
     "files":    [{
         "includePattern":   "/home/travis/build/CEBEP9HUH/OTUS_Homework_1/helloworld-0.0.@PROJECT_VERSION_PATCH@-Linux.deb",
-        "uploadPattern":    "/helloworld-0.0.@PROJECT_VERSION_PATCH@-Linux.deb"
-    }]
+        "uploadPattern":    "/helloworld-0.0.@PROJECT_VERSION_PATCH@-Linux.deb",
+        "matrixParams": {
+            "deb_distribution": "trusty",
+            "deb_component": "main",
+            "deb_architecture": "amd64"
+        }
+    }],
+    "publish": true
 }
