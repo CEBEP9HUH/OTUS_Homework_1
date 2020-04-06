@@ -6,6 +6,9 @@ else()
     project(helloworld VERSION 0.0.42)
 endif()
 
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 #====================================================================
 configure_file(CMakeLists.txt.in googletest-download/CMakeLists.txt)
 execute_process(COMMAND ${CMAKE_COMMAND} -G "${CMAKE_GENERATOR}" .
@@ -44,9 +47,6 @@ set_target_properties(helloworld_cli helloworld test_version gtest_version PROPE
     CXX_STANDARD 14
     CXX_STANDARD_REQUIRED ON
 )  
-
-set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 target_include_directories(helloworld
     PRIVATE "${CMAKE_BINARY_DIR}"
