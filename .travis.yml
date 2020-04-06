@@ -2,7 +2,9 @@ language: cpp
 before_script:
   sudo apt-get install libboost-test-dev -y
 script:
-- cmake .
+  mkdir build
+  cd build
+- cmake ..
 - cmake --build .
 - ctest .
 - cmake --build . --target package
