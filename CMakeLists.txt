@@ -43,7 +43,8 @@ add_executable(gtest_version gtest_version.cpp)
 set_target_properties(helloworld_cli helloworld test_version PROPERTIES
     CXX_STANDARD 14
     CXX_STANDARD_REQUIRED ON
-)
+)  
+SET(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} "-std=c++11")
 
 target_include_directories(helloworld
     PRIVATE "${CMAKE_BINARY_DIR}"
